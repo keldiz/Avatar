@@ -14,12 +14,12 @@ function setup() {
   angleMode(DEGREES);
   mic = new p5.AudioIn();
   mic.start();
-  
+
   mouse1 = new Mouse(90, 246, purpleandgreen, 0.5);
   mouse2 = new Mouse(160, 260, purpleandgreen, 1.5);
   mouse3 = new Mouse(180, 246, purpleandgreen, 0.1);
   mouse4 = new Mouse(80, 260, purpleandgreen, 0.7);
-  
+
   console.log(mouse1);
 
 }
@@ -85,7 +85,7 @@ function drawCurtain() {
   fill(255, 204, 0);
     noStroke();
  triangle(0, 5, 0, 200, 50, 5);
-  
+
     fill(255, 204, 0);
     noStroke();
  triangle(400, 200, 350, 0, 400, 0);
@@ -102,8 +102,8 @@ fill(255, 204, 0);
     noStroke();
   rect(0, 0, 400, 20);
 
-  
-  
+
+
   fill(255, 204, 0);
   rect(0, 380, 400, 30);
 
@@ -151,6 +151,6 @@ function drawMickeyeyes (){
   stroke(20)
   ellipse(160, 220, 35, 30);
   ellipse(230, 220, 35, 30);
-  
-  
+
+
 }
